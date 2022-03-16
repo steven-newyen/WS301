@@ -1,0 +1,22 @@
+{
+  "name": "Question 1",
+  "description": "Demonstrates background and content scripts for a Chrome extension",
+  "version": "1.0",
+  "permissions": [
+    "activeTab" 
+  ],
+  
+"web_accessible_resources": ["style.css"],
+
+  // Background scripts can be used to respond to events, such as clicking the icon 
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Question 1"
+  },
+  "manifest_version": 2
+}
+
+

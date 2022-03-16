@@ -1,0 +1,25 @@
+  
+  div#headerCTA-header-column{
+	z-index: 1000;
+	top: 20%;
+	position: fixed;
+	left: 0%; 
+	background-color: green;
+	padding: 2%; 
+	border: solid 1px black;
+	display: inline; 
+	vertical-align: baseline;
+	text-decoration: none; 
+	}
+	
+	 ul#styleList ul {
+		 list-style-type: none;
+		 display: inline-block;
+		 padding: 4px; 
+		 text-decoration: none;
+	 }
+
+	a.links {
+	text-decoration: none; 
+	color: black;
+	}

@@ -1,0 +1,19 @@
+{
+  "name": "Question 3",
+  "description": "changes the href",
+  "version": "1.0",
+  "permissions": [
+    "activeTab" 
+  ],
+  // Background scripts can be used to respond to events, such as clicking the icon 
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Question 3"
+  },
+  "manifest_version": 2
+}
+
+
